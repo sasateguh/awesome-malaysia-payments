@@ -90,7 +90,7 @@
 
 - [zarulizham/laravel-duitnow](https://github.com/zarulizham/laravel-duitnow) - ★ 10 · MIT · 2026-06 — Laravel wrapper for DuitNow Integration.
 - [Jagdish-J-P/fpx-payment](https://github.com/Jagdish-J-P/fpx-payment) - ★ 15 · MIT · 2025-08 — FPX Payment Gateway Integration in laravel.
-- [shahrulestar/tukarqr](https://github.com/shahrulestar/tukarqr) - ★ 5 · MIT · 2026-09 — Convert blurry, unclear, or camera-taken DuitNow QR images into clean, and rescannable digital QR codes for payments.
+- [shahrulestar/tukarqr](https://github.com/shahrulestar/tukarqr) - ★ 5 · MIT · 2026-10 — Convert blurry, unclear, or camera-taken DuitNow QR images into clean, and rescannable digital QR codes for payments.
 - [zarulizham/laravel-ambank-duitnow-qr](https://github.com/zarulizham/laravel-ambank-duitnow-qr) - ★ 5 · MIT · 2026-09 — AmBank Malaysia's National QR Payment wrapper for Laravel.
 - [natsu90/duitnowqr-chip](https://github.com/natsu90/duitnowqr-chip) - ★ 13 · tiada lesen · 2025-03 — DuitNowQR Hardwareless Soundbox.
 
@@ -103,6 +103,8 @@ Setiap entri ialah repositori GitHub awam. Setiap minggu satu skrip membaca bint
 Repositori tidak disenaraikan bila ia diarkib, fork, tiada penerangan, kurang daripada 3 bintang atau tiada tolakan selama 1095 hari. Bilangan bintang dibundarkan ke bawah kepada gandaan 1 terdekat. Penerangan ialah penerangan GitHub repositori itu sendiri.
 
 ## Bekerja dengan Sasa Teguh
+
+[![Bekerja dengan Sasa Teguh: tempah panggilan](https://raw.githubusercontent.com/sasateguh/.github/main/assets/work-with-sasa-teguh.png)](https://sasateguh.com/ms/book)
 
 Senarai ini diselenggara oleh [Sasa Teguh](https://sasateguh.com/ms), studio di Malaysia. Kami membina laman web yang ditemui di Google dan dalam jawapan AI, dan memasang sistem untuk perniagaan.
 
