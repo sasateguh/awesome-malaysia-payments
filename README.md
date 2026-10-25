@@ -20,7 +20,7 @@
 
 ## Multi-gateway tools and references
 
-- [afu-it/malaysia-payment-gateway](https://github.com/afu-it/malaysia-payment-gateway) - ★ 73 · no license · 2026-10 — Agent skills for implementing Malaysia payment gateway integrations.
+- [afu-it/malaysia-payment-gateway](https://github.com/afu-it/malaysia-payment-gateway) - ★ 74 · no license · 2026-10 — Agent skills for implementing Malaysia payment gateway integrations.
 - [afu-it/mpg](https://github.com/afu-it/mpg) - ★ 10 · other license · 2026-10 — Compare fees of 81 Malaysian payment gateways (FPX, card, e-wallet, DuitNow QR, BNPL), straight from official pricing pages. Free JSON API and MCP server.
 - [deadboy18/malaysia-pay-kit](https://github.com/deadboy18/malaysia-pay-kit) - ★ 4 · MIT · 2026-05 — Malaysian payment integration toolkit — bank codes, DuitNow QR acquirers, FPX IDs, validators, 479 icons. All verified against PayNet, BNM & official sources.
 - [EquilibriumTechx/qr-pay-gateway](https://github.com/EquilibriumTechx/qr-pay-gateway) - ★ 8 · GPL-3.0 · 2024-01 — Malaysian QR Pay plugin, woocommerce manual payment gateway, Touch 'n Go, Grab, Boost, Shopee Pay.
