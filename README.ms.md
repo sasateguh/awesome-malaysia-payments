@@ -17,6 +17,7 @@
 - [Revenue Monster](#revenue-monster)
 - [DuitNow dan FPX](#duitnow-dan-fpx)
 - [Cara pangkat dikira](#cara-pangkat-dikira)
+- [Bekerja dengan Sasa Teguh](#bekerja-dengan-sasa-teguh)
 
 ## Alat dan rujukan pelbagai gateway
 
@@ -101,12 +102,12 @@ Setiap entri ialah repositori GitHub awam. Setiap minggu satu skrip membaca bint
 
 Repositori tidak disenaraikan bila ia diarkib, fork, tiada penerangan, kurang daripada 3 bintang atau tiada tolakan selama 1095 hari. Bilangan bintang dibundarkan ke bawah kepada gandaan 1 terdekat. Penerangan ialah penerangan GitHub repositori itu sendiri.
 
-## Menyumbang
-
-Cadangan dialu-alukan. Lihat [contributing.md](contributing.md).
-
 ## Bekerja dengan Sasa Teguh
 
 Senarai ini diselenggara oleh [Sasa Teguh](https://sasateguh.com/ms), studio di Malaysia. Kami membina laman web yang ditemui di Google dan dalam jawapan AI, dan memasang sistem untuk perniagaan.
 
 [Tempah panggilan](https://sasateguh.com/ms/book) · hello@sasateguh.com · [Lagi daripada Sasa Teguh](https://github.com/sasateguh)
+
+## Menyumbang
+
+Cadangan dialu-alukan. Lihat [contributing.md](contributing.md).
