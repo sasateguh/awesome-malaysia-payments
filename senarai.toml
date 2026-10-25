@@ -105,6 +105,11 @@ nama = "bayarkit"
 url = "https://github.com/aimanmalib/bayarkit"
 syarat = "repo_awam"
 repo = "aimanmalib/bayarkit"
+# Blok "Daripada penyelenggara" di atas senarai (pemilik 25 Okt: iklan produk kita + hubungi; dilabel, tidak dipangkat).
+# {bilangan} dikira setiap larian daripada registry repo itu (adapter yang wujud) — tidak ditaip, tidak basi.
+en = "[{nama}]({url}) connects {bilangan} payment gateways used in Malaysia behind one interface, in TypeScript and PHP/Laravel. [Sasa Teguh](https://sasateguh.com) builds and integrates payment flows for businesses."
+ms = "[{nama}]({url}) menyambungkan {bilangan} gateway pembayaran yang digunakan di Malaysia di belakang satu antara muka, dalam TypeScript dan PHP/Laravel. [Sasa Teguh](https://sasateguh.com/ms) membina dan memasang aliran pembayaran untuk perniagaan."
+bilangan = { fail = "gateways/registry.json", senarai = "gateways", ada = "adapter" }
 
 [cari]
 had = 100
