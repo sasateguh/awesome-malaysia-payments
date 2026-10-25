@@ -102,9 +102,9 @@ hari_tidak_aktif = 1095
 
 [produk]
 nama = "bayarkit"
-url = "https://github.com/aimanmalib/bayarkit"
+url = "https://github.com/sasateguh/bayarkit"
 syarat = "repo_awam"
-repo = "aimanmalib/bayarkit"
+repo = "sasateguh/bayarkit"
 # Blok "Daripada penyelenggara" di atas senarai (pemilik 25 Okt: iklan produk kita + hubungi; dilabel, tidak dipangkat).
 # {bilangan} dikira setiap larian daripada registry repo itu (adapter yang wujud) — tidak ditaip, tidak basi.
 en = "[{nama}]({url}) connects {bilangan} payment gateways used in Malaysia behind one interface, in TypeScript and PHP/Laravel. [Sasa Teguh](https://sasateguh.com) builds and integrates payment flows for businesses."
