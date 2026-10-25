@@ -1,0 +1,820 @@
+# Senarai gateway pembayaran Malaysia (PELAN-senarai-niche S8, D33). Teks EN/BM di sini = teks awam: DRAF sehingga flag S9
+# dijawab `ok`. Kurasi: entri = SDK, plugin, pustaka, alat dan rujukan untuk gateway/kaedah pembayaran MALAYSIA (rasmi atau
+# komuniti); kategori = gateway (pembangun mencari ikut gateway yang mereka pakai). Repo lapuk/kecil tetap entri — ambang
+# membuangnya dan ia kembali sendiri. `kecuali` = bukan pembayaran ("chip"/"collect" perkakasan, CHIP Medicaid AS), contoh
+# tutorial/hackathon/tugasan, aplikasi pengguna yang sekadar MEMAKAI gateway, fon ikon logo pihak ketiga, penerangan bukan Latin.
+# bayarkit = baris produk (syarat repo_awam, disemak setiap larian) — TIDAK pernah entri berpangkat (§2.2).
+id = "bayaran"
+repo = "sasateguh/awesome-malaysia-payments"
+bundar_bintang = 1
+buang_fork = true
+# Calon `cari` yang ditolak semasa kurasi.
+kecuali = [
+  "4-2-cz/gamehunters-auto-collect",
+  "abdisetiakawan/restfulAPI-ManagePayrollandAttendance",
+  "afiq101/typ-hackathon-2023",
+  "ahmadsolehin/Billplz-Api-Web_Ecommerce-Sample",
+  "akmalhazim/billplz-laravel-tutorial",
+  "alexhla/led-matrix-wall",
+  "ariyan79731/Nasah-Socail-services",
+  "AzriZzz/merchant-db",
+  "cartheur/M68HC11",
+  "clibing/ChipCollection",
+  "COPS-IITBHU/CHIP8-Collection",
+  "corporation9/Lifeband-vxOS-WiFi-BLE-Sniffer",
+  "ctkqiang/PayNetHackathon",
+  "danderfer/Comp_Sci_Sem_2",
+  "danderflieger/AHRS_SB_F405-Adafruit_Feather_M4_CAN",
+  "derekgan08/touchngo-ewallet-reviews-sentiment-analysis",
+  "DL1XY/vintage-soundchip-collection",
+  "edmundlzen/taro-bot-cn",
+  "eeric2eric/senangpay",
+  "ejjat0909/clothus",
+  "ekernf01/network_collection",
+  "Enterprise-CMCS/macpro-mdct-carts",
+  "Enterprise-CMCS/macpro-mdct-hcbs",
+  "Enterprise-CMCS/macpro-mdct-mcr",
+  "Enterprise-CMCS/macpro-mdct-qmr",
+  "Enterprise-CMCS/macpro-mdct-seds",
+  "FanIvanTang/python_day11_blackjack",
+  "FiuuPayment/Telegram-FiuuDeveloperForum",
+  "Ganthology/tng-clone",
+  "ggdover/nrf5340_leaudio",
+  "giasone/PocketCHIP-note",
+  "hysonglet/chip_svd",
+  "JCVV/Fiuu",
+  "kaizhi888/ScamSense",
+  "kudarukuni/CHIPOKO",
+  "lineleb/16-Channel-BLE-Capacitance-Collector",
+  "MyeWallet-boo5t/eWallet",
+  "Nashru12/Photography-Booking-Web-Application",
+  "natsu90/duitnowqr-razer",
+  "natsu90/duitnowqr-test",
+  "NTHunt/phone-chiptype",
+  "nurfaizfoat/bankMY-payment-webfont",
+  "nurfaizfoat/bankMY2-payment-webfont",
+  "online-rcash/payment.ipay88.com.my",
+  "open-neuromorphic/awesome-neuromorphic-hw",
+  "osamashaki/billplzIntegrationwithASPNET",
+  "perryflynn/pocketchip-sysmonitor",
+  "ppavlidis/group-tabs-by-collection",
+  "qhkm/next-senangpay-integration-example",
+  "saddam802216/billplz",
+  "salimi-my/book-store",
+  "schoeberl/chip-design",
+  "sdk-team-fortix/retrieve-bank-list-sample",
+  "simplepay/senangPay",
+  "tangfengyun/molpay",
+  "Tianbao365/ChIP-ePENS",
+  "tropicsquare/devboards",
+  "unnatisilks12/madhuri",
+  "v4p0r/rooon-fiuuu",
+  "vinniebhanu2021/ManagePayrollandAttendance-RESTAPI",
+  "waleblaq/planet-understanding-the-amazon-from-space",
+  "wothke/chiptune-collection",
+  "x-tinkerer/chip-dev-starter-lab",
+  "yenwee/asnb_buyer_app",
+  "ZhaoyuDeng/stm32-collection",
+]
+
+[en]
+tajuk = "Awesome Malaysia Payments"
+pembuka = "Open-source SDKs, plugins and references for Malaysian payment gateways and methods, such as Billplz, toyyibPay, Bayarcash, CHIP, senangPay, iPay88, Fiuu, DuitNow and FPX. Ranked by stars and recent activity, refreshed every week."
+
+[ms]
+tajuk = "Senarai Berpangkat Pembayaran Malaysia"
+pembuka = "SDK, plugin dan rujukan sumber terbuka untuk gateway dan kaedah pembayaran Malaysia, seperti Billplz, toyyibPay, Bayarcash, CHIP, senangPay, iPay88, Fiuu, DuitNow dan FPX. Dipangkat ikut bintang dan aktiviti terkini, dikemas setiap minggu."
+
+[github]
+# Deskripsi + topik repo (D38): deskripsi lulus config/gaya.toml; topik = `gilap topik --wajib awesome,awesome-list` 25 Okt
+# (data GitHub; taksa dibuang). Teks awam — terbit bait-sama selepas kelulusan pemilik.
+penerangan = "Ranked, weekly-updated list of open-source SDKs and plugins for Malaysian payment gateways such as Billplz, toyyibPay, CHIP and iPay88."
+topik = ["awesome", "awesome-list", "laravel", "payments", "payment-gateway", "woocommerce", "payment", "malaysia", "fpx", "duitnow"]
+
+[pangkat]
+bintang = 1.0
+aktif = 1.0
+
+# Ekosistem kecil: SDK gateway tempatan jarang melebihi 10★ dan API gateway berubah perlahan (D33).
+[ambang]
+bintang_min = 3
+hari_tidak_aktif = 1095
+
+[produk]
+nama = "bayarkit"
+url = "https://github.com/aimanmalib/bayarkit"
+syarat = "repo_awam"
+repo = "aimanmalib/bayarkit"
+
+[cari]
+had = 100
+pertanyaan = [
+  "toyyibpay", "billplz", "bayarcash", "senangpay", "ipay88", "molpay", "fiuu", "razer merchant services",
+  "eghl", "gkash", "curlec", '"chip-in" payment', "chip collect", "duitnow", "fpx malaysia", "fpx payment",
+  "revenue monster", "managepay", "paydibs", "kiplepay", "malaysia payment gateway", "touch n go ewallet", "boost ewallet",
+]
+
+[[kategori]]
+id = "pelbagai"
+en = "Multi-gateway tools and references"
+ms = "Alat dan rujukan pelbagai gateway"
+
+[[kategori]]
+id = "billplz"
+en = "Billplz"
+ms = "Billplz"
+
+[[kategori]]
+id = "toyyibpay"
+en = "toyyibPay"
+ms = "toyyibPay"
+
+[[kategori]]
+id = "bayarcash"
+en = "Bayarcash"
+ms = "Bayarcash"
+
+[[kategori]]
+id = "chip"
+en = "CHIP"
+ms = "CHIP"
+
+[[kategori]]
+id = "senangpay"
+en = "senangPay"
+ms = "senangPay"
+
+[[kategori]]
+id = "ipay88"
+en = "iPay88"
+ms = "iPay88"
+
+[[kategori]]
+id = "fiuu"
+en = "Fiuu (Razer Merchant Services, MOLPay)"
+ms = "Fiuu (Razer Merchant Services, MOLPay)"
+
+[[kategori]]
+id = "eghl"
+en = "eGHL"
+ms = "eGHL"
+
+[[kategori]]
+id = "gkash"
+en = "Gkash"
+ms = "Gkash"
+
+[[kategori]]
+id = "rm"
+en = "Revenue Monster"
+ms = "Revenue Monster"
+
+[[kategori]]
+id = "duitnow"
+en = "DuitNow and FPX"
+ms = "DuitNow dan FPX"
+
+[[kategori]]
+id = "lain"
+en = "Other gateways"
+ms = "Gateway lain"
+
+[[entri]]
+repo = "jomweb/billplz"
+kategori = "billplz"
+
+[[entri]]
+repo = "afu-it/malaysia-payment-gateway"
+kategori = "pelbagai"
+
+[[entri]]
+repo = "jomweb/billplz-laravel"
+kategori = "billplz"
+
+[[entri]]
+repo = "tarsofttech/toyyibpay-laravel"
+kategori = "toyyibpay"
+
+[[entri]]
+repo = "RazerMS/Integration-RazerMS_JavaScript_Seamless_Integration"
+kategori = "fiuu"
+
+[[entri]]
+repo = "RazerMS/Documentation-RazerMS_API_Spec"
+kategori = "fiuu"
+
+[[entri]]
+repo = "Billplz/Billplz-for-Minisite"
+kategori = "billplz"
+
+[[entri]]
+repo = "myussufz/react-native-ipay88-sdk"
+kategori = "ipay88"
+
+[[entri]]
+repo = "karyamedia/ipay88"
+kategori = "ipay88"
+
+[[entri]]
+repo = "RazerMS/Mobile-XDK-RazerMS_Android_Studio"
+kategori = "fiuu"
+
+[[entri]]
+repo = "FiuuPayment/Documentation-Fiuu_API_Spec"
+kategori = "fiuu"
+
+[[entri]]
+repo = "Jagdish-J-P/fpx-payment"
+kategori = "duitnow"
+
+[[entri]]
+repo = "aifaiz/ipay88-woocommerce"
+kategori = "ipay88"
+
+[[entri]]
+repo = "RazerMS/Mobile-XDK-RazerMS_Flutter_Beta"
+kategori = "fiuu"
+
+[[entri]]
+repo = "natsu90/duitnowqr-chip"
+kategori = "duitnow"
+
+[[entri]]
+repo = "Cyvelnet/Laravel5-billplz"
+kategori = "billplz"
+
+[[entri]]
+repo = "RazerMS/Shopping-Cart-Plugins-RazerMS_WooCommerce"
+kategori = "fiuu"
+
+[[entri]]
+repo = "afu-it/mpg"
+kategori = "pelbagai"
+
+[[entri]]
+repo = "Billplz/Billplz-for-WooCommerce"
+kategori = "billplz"
+
+[[entri]]
+repo = "kidino/billplz"
+kategori = "billplz"
+
+[[entri]]
+repo = "RazerMS/Mobile-XDK-RazerMS_React_Native"
+kategori = "fiuu"
+
+[[entri]]
+repo = "vespazwan/WooCommerce_Plugin"
+kategori = "fiuu"
+
+[[entri]]
+repo = "zarulizham/laravel-duitnow"
+kategori = "duitnow"
+
+[[entri]]
+repo = "afiqiqmal/Rpclient"
+kategori = "lain"
+
+[[entri]]
+repo = "FiuuPayment/Cheatsheet-BestPractices-Fiuu_API"
+kategori = "fiuu"
+
+[[entri]]
+repo = "mkhairi/billplz-api"
+kategori = "billplz"
+
+[[entri]]
+repo = "suhz/node-billplz"
+kategori = "billplz"
+
+[[entri]]
+repo = "EquilibriumTechx/qr-pay-gateway"
+kategori = "pelbagai"
+
+[[entri]]
+repo = "syamilmj/billplz"
+kategori = "billplz"
+
+[[entri]]
+repo = "CHIPAsia/chip-php-sdk"
+kategori = "chip"
+
+[[entri]]
+repo = "Cyvelnet/laravel-billplz"
+kategori = "billplz"
+
+[[entri]]
+repo = "mage2pro/ipay88"
+kategori = "ipay88"
+
+[[entri]]
+repo = "Nexstream/cordova-plugin-eghl"
+kategori = "eghl"
+
+[[entri]]
+repo = "abdusfauzi/exn-wc-billplz"
+kategori = "billplz"
+
+[[entri]]
+repo = "Billplz/Billplz-for-GiveWP"
+kategori = "billplz"
+
+[[entri]]
+repo = "codenitive/laravel-molpay"
+kategori = "fiuu"
+
+[[entri]]
+repo = "nasrulhazim/billplz-unofficial"
+kategori = "billplz"
+
+[[entri]]
+repo = "FiuuPayment/Fiuu-Virtual-Terminal-SDK"
+kategori = "fiuu"
+
+[[entri]]
+repo = "FiuuPayment/Mobile-XDK-Fiuu_Flutter"
+kategori = "fiuu"
+
+[[entri]]
+repo = "FiuuPayment/Shopping-Cart-Plugins-Fiuu_Hosted_Payment_for_Shopify"
+kategori = "fiuu"
+
+[[entri]]
+repo = "RazerMS/Mobile-XDK-RazerMS_Flutter"
+kategori = "fiuu"
+
+[[entri]]
+repo = "RazerMS/SDK-RazerMS_Node_JS"
+kategori = "fiuu"
+
+[[entri]]
+repo = "RazerMS/Shopping-Cart-Plugins-RazerMS_Hosted_Payment_for_Shopify"
+kategori = "fiuu"
+
+[[entri]]
+repo = "RazerMS/Shopping-Cart-Plugins-RazerMS_Magento"
+kategori = "fiuu"
+
+[[entri]]
+repo = "RevenueMonster/rm-java-android-sdk"
+kategori = "rm"
+
+[[entri]]
+repo = "RevenueMonster/rm-php-sdk"
+kategori = "rm"
+
+[[entri]]
+repo = "shahrulestar/tukarqr"
+kategori = "duitnow"
+
+[[entri]]
+repo = "thekirinlab/ipay88"
+kategori = "ipay88"
+
+[[entri]]
+repo = "xputerax/toyyibpay"
+kategori = "toyyibpay"
+
+[[entri]]
+repo = "zarulizham/laravel-ambank-duitnow-qr"
+kategori = "duitnow"
+
+[[entri]]
+repo = "Akim95/toyyibpay-js-sdk"
+kategori = "toyyibpay"
+
+[[entri]]
+repo = "AliffAzmi/wc-malaysia-payment-gateway"
+kategori = "pelbagai"
+
+[[entri]]
+repo = "Billplz/Billplz-for-PrestaShop-1.7"
+kategori = "billplz"
+
+[[entri]]
+repo = "Billplz/billplz-go"
+kategori = "billplz"
+
+[[entri]]
+repo = "deadboy18/malaysia-pay-kit"
+kategori = "pelbagai"
+
+[[entri]]
+repo = "ewallz/toyyibpay-plugins"
+kategori = "toyyibpay"
+
+[[entri]]
+repo = "RazerMS/Integration-RazerMS_Inpage_Checkout"
+kategori = "fiuu"
+
+[[entri]]
+repo = "RazerMS/Mobile-XDK-RazerMS_IOS"
+kategori = "fiuu"
+
+[[entri]]
+repo = "RazerMS/Shopping-Cart-Plugins-RazerMS_Prestashop"
+kategori = "fiuu"
+
+[[entri]]
+repo = "RevenueMonster/rm-go-sdk"
+kategori = "rm"
+
+[[entri]]
+repo = "rockbear-team/billplz-graphql"
+kategori = "billplz"
+
+[[entri]]
+repo = "sitehandy/omnipay-toyyibpay"
+kategori = "toyyibpay"
+
+[[entri]]
+repo = "az-iar/magento-billplz"
+kategori = "billplz"
+
+[[entri]]
+repo = "bayarcash/php-sdk"
+kategori = "bayarcash"
+
+[[entri]]
+repo = "fadhilx/toyyibpay-sdk-js"
+kategori = "toyyibpay"
+
+[[entri]]
+repo = "FiuuPayment/Encryption-Fiuu_Client_Side_Encryption"
+kategori = "fiuu"
+
+[[entri]]
+repo = "FiuuPayment/FiuuGooglePayPlugin"
+kategori = "fiuu"
+
+[[entri]]
+repo = "FiuuPayment/Integration-Fiuu_JavaScript_Seamless_Integration"
+kategori = "fiuu"
+
+[[entri]]
+repo = "gkashmy/gkash-react-native-sdk"
+kategori = "gkash"
+
+[[entri]]
+repo = "h2akim/senangpay-php"
+kategori = "senangpay"
+
+[[entri]]
+repo = "mattyc246/billplz-python"
+kategori = "billplz"
+
+[[entri]]
+repo = "napoleon101392/ipay88"
+kategori = "ipay88"
+
+[[entri]]
+repo = "RazerMS/Mobile-XDK-RazerMS_Cordova"
+kategori = "fiuu"
+
+[[entri]]
+repo = "RazerMS/SDK-RazerMS_Python"
+kategori = "fiuu"
+
+[[entri]]
+repo = "RevenueMonster/rm-kotlin-sdk"
+kategori = "rm"
+
+[[entri]]
+repo = "tajulsharby/laravel-senangpay"
+kategori = "senangpay"
+
+[[entri]]
+repo = "Akim95/billplz-apollo"
+kategori = "billplz"
+
+[[entri]]
+repo = "bayarcash/php-demo"
+kategori = "bayarcash"
+
+[[entri]]
+repo = "berrypay/duitnow-java"
+kategori = "duitnow"
+
+[[entri]]
+repo = "Billplz/Billplz-for-GravityForms"
+kategori = "billplz"
+
+[[entri]]
+repo = "Billplz/Billplz-for-Moodle"
+kategori = "billplz"
+
+[[entri]]
+repo = "Billplz/Billplz-for-WP-Charitable"
+kategori = "billplz"
+
+[[entri]]
+repo = "Bomstart/woo-toyyibpay"
+kategori = "toyyibpay"
+
+[[entri]]
+repo = "FiuuPayment/Integration-Fiuu_Inpage_Checkout"
+kategori = "fiuu"
+
+[[entri]]
+repo = "FiuuPayment/Mobile-XDK-Fiuu_Android_Library"
+kategori = "fiuu"
+
+[[entri]]
+repo = "FiuuPayment/Shopping-Cart-Plugins-Fiuu_Magento"
+kategori = "fiuu"
+
+[[entri]]
+repo = "FiuuPayment/Shopping-Cart-Plugins-Fiuu_OpenCart"
+kategori = "fiuu"
+
+[[entri]]
+repo = "FiuuPayment/Shopping-Cart-Plugins-Fiuu_OpenCart2.0"
+kategori = "fiuu"
+
+[[entri]]
+repo = "FiuuPayment/Shopping-Cart-Plugins-Fiuu_WHMCS"
+kategori = "fiuu"
+
+[[entri]]
+repo = "FiuuPayment/Shopping-Cart-Plugins-Fiuu_WooCommerce"
+kategori = "fiuu"
+
+[[entri]]
+repo = "gkashmy/gkash-client-tcp-softpos-android"
+kategori = "gkash"
+
+[[entri]]
+repo = "mahyarsh/FPX-Lib"
+kategori = "duitnow"
+
+[[entri]]
+repo = "RazerMS/Mobile-XDK-RazerMS_Cocoapods_Framework"
+kategori = "fiuu"
+
+[[entri]]
+repo = "RazerMS/Mobile-XDK-RazerMS_Unity3D"
+kategori = "fiuu"
+
+[[entri]]
+repo = "RazerMS/Mobile-XDK-RazerMS_Xamarin_IOS"
+kategori = "fiuu"
+
+[[entri]]
+repo = "RazerMS/Next-JS-Seamless"
+kategori = "fiuu"
+
+[[entri]]
+repo = "RazerMS/Shopping-Cart-Plugins-RazerMS_OpenCart"
+kategori = "fiuu"
+
+[[entri]]
+repo = "RevenueMonster/rm-ios-sdk"
+kategori = "rm"
+
+[[entri]]
+repo = "RevenueMonster/rm-js-sdk"
+kategori = "rm"
+
+[[entri]]
+repo = "ruslyrossi47/iPay88-Prestashop"
+kategori = "ipay88"
+
+[[entri]]
+repo = "sbahrin3/JavaToyyibPayAPI"
+kategori = "toyyibpay"
+
+[[entri]]
+repo = "shiragami/billplz"
+kategori = "billplz"
+
+[[entri]]
+repo = "tjwoon/csIPay88"
+kategori = "ipay88"
+
+[[entri]]
+repo = "yinsee/omnipay-billplz"
+kategori = "billplz"
+
+[[entri]]
+repo = "Afterkelas/toyyibpay-python"
+kategori = "toyyibpay"
+
+[[entri]]
+repo = "Akim95/toyyibpay-graphql-server"
+kategori = "toyyibpay"
+
+[[entri]]
+repo = "AsyraniAzni/ToyyibPay-for-GiveWP"
+kategori = "toyyibpay"
+
+[[entri]]
+repo = "bayar-hub/bayarcash-gateway"
+kategori = "bayarcash"
+
+[[entri]]
+repo = "Billplz/Billplz-for-Orderbox"
+kategori = "billplz"
+
+[[entri]]
+repo = "Billplz/Billplz-for-PrestaShop-1.6"
+kategori = "billplz"
+
+[[entri]]
+repo = "Billplz/Billplz-for-WHMCS"
+kategori = "billplz"
+
+[[entri]]
+repo = "Billplz/Billplz-for-WP-e-Commerce"
+kategori = "billplz"
+
+[[entri]]
+repo = "dash8x/rm-laravel"
+kategori = "rm"
+
+[[entri]]
+repo = "DHCertainty/DuitNowQR"
+kategori = "duitnow"
+
+[[entri]]
+repo = "dilab/omnipay-eghl"
+kategori = "eghl"
+
+[[entri]]
+repo = "FiuuPayment/FiuuApplePayPlugin"
+kategori = "fiuu"
+
+[[entri]]
+repo = "FiuuPayment/Mobile-XDK-Fiuu_Cocoapods_Framework"
+kategori = "fiuu"
+
+[[entri]]
+repo = "FiuuPayment/Mobile-XDK-Fiuu_Examples"
+kategori = "fiuu"
+
+[[entri]]
+repo = "FiuuPayment/Mobile-XDK-Fiuu_Expo"
+kategori = "fiuu"
+
+[[entri]]
+repo = "FiuuPayment/Mobile-XDK-Fiuu_NativeScript"
+kategori = "fiuu"
+
+[[entri]]
+repo = "FiuuPayment/Mobile-XDK-Fiuu_React_Native"
+kategori = "fiuu"
+
+[[entri]]
+repo = "FiuuPayment/Mobile-XDK-Fiuu_Swift"
+kategori = "fiuu"
+
+[[entri]]
+repo = "FiuuPayment/Mobile_XDK_Fiuu_Android_Kotlin"
+kategori = "fiuu"
+
+[[entri]]
+repo = "FiuuPayment/SDK-Fiuu_Java"
+kategori = "fiuu"
+
+[[entri]]
+repo = "FiuuPayment/Shopping-Cart-Plugins-Fiuu_VirtueMart_Joomla"
+kategori = "fiuu"
+
+[[entri]]
+repo = "gkashmy/gkash-android-sdk"
+kategori = "gkash"
+
+[[entri]]
+repo = "gkashmy/gkash-client-tcp-softpos-windows"
+kategori = "gkash"
+
+[[entri]]
+repo = "gmsas95/chip-for-emdash"
+kategori = "chip"
+
+[[entri]]
+repo = "iamashraff/toyyibPay-Payment-Gateway-PHP-API"
+kategori = "toyyibpay"
+
+[[entri]]
+repo = "idhamhafidz/laravel-senangpay"
+kategori = "senangpay"
+
+[[entri]]
+repo = "isieo/spree_ipay88"
+kategori = "ipay88"
+
+[[entri]]
+repo = "jsdecena/ipay88"
+kategori = "ipay88"
+
+[[entri]]
+repo = "khairulimran-97/bayarcash-mcp-server"
+kategori = "bayarcash"
+
+[[entri]]
+repo = "kitypet/iPay88-PHP-Basic-API"
+kategori = "ipay88"
+
+[[entri]]
+repo = "KThen/flutter_eghl_plugin_unofficial"
+kategori = "eghl"
+
+[[entri]]
+repo = "mansarip/toyyibpay"
+kategori = "toyyibpay"
+
+[[entri]]
+repo = "nsNeruno/flutter_ipay88"
+kategori = "ipay88"
+
+[[entri]]
+repo = "NuarHaruha/ipay88"
+kategori = "ipay88"
+
+[[entri]]
+repo = "Oskang09/RM-API-SDK-KOTLIN"
+kategori = "rm"
+
+[[entri]]
+repo = "QuantomTech/billplz-rest"
+kategori = "billplz"
+
+[[entri]]
+repo = "r4shsec/merchant-qr-parser"
+kategori = "duitnow"
+
+[[entri]]
+repo = "raheemmiyasin/SenangPay-for-GiveWP"
+kategori = "senangpay"
+
+[[entri]]
+repo = "RazerMS/Mobile-XDK-RazerMS_NativeScript"
+kategori = "fiuu"
+
+[[entri]]
+repo = "RazerMS/Mobile-XDK-RazerMS_Titanium"
+kategori = "fiuu"
+
+[[entri]]
+repo = "RazerMS/Mobile-XDK-RazerMS_WWW"
+kategori = "fiuu"
+
+[[entri]]
+repo = "RazerMS/Mobile-XDK-RazerMS_Xamarin_Android"
+kategori = "fiuu"
+
+[[entri]]
+repo = "RazerMS/SDK-RazerMS_CSharp"
+kategori = "fiuu"
+
+[[entri]]
+repo = "RazerMS/SDK-RazerMS_Java"
+kategori = "fiuu"
+
+[[entri]]
+repo = "RazerMS/Shopping-Cart-Plugins-RazerMS_GrandNode"
+kategori = "fiuu"
+
+[[entri]]
+repo = "RazerMS/Shopping-Cart-Plugins-RazerMS_OpenCart2.0"
+kategori = "fiuu"
+
+[[entri]]
+repo = "ruslyrossi47/ipay88-online-payment-gateway"
+kategori = "ipay88"
+
+[[entri]]
+repo = "saiaapiz/toyyibpayapi"
+kategori = "toyyibpay"
+
+[[entri]]
+repo = "SamphorsKhlok/Ionic-plugin-iPay88"
+kategori = "ipay88"
+
+[[entri]]
+repo = "selisekwork/duitnow-qr-website"
+kategori = "duitnow"
+
+[[entri]]
+repo = "sykezz/betterpay"
+kategori = "lain"
+
+[[entri]]
+repo = "vespazwan/FB-App-Seamless"
+kategori = "fiuu"
+
+[[entri]]
+repo = "vespazwan/WP_eCommerce_Plugin"
+kategori = "fiuu"
+
+[[entri]]
+repo = "webimpian/bayarcash-api-documentation"
+kategori = "bayarcash"
+
+[[entri]]
+repo = "wmswina/pmpro-senangpay-gateway"
+kategori = "senangpay"
+
+[[entri]]
+repo = "zarulrahim/react-native-ipay88-integration"
+kategori = "ipay88"
