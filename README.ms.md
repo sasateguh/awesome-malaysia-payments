@@ -22,7 +22,7 @@
 ## Alat dan rujukan pelbagai gateway
 
 - [afu-it/malaysia-payment-gateway](https://github.com/afu-it/malaysia-payment-gateway) - ★ 74 · tiada lesen · 2026-10 — Agent skills for implementing Malaysia payment gateway integrations.
-- [afu-it/mpg](https://github.com/afu-it/mpg) - ★ 10 · lesen lain · 2026-10 — Compare fees of 81 Malaysian payment gateways (FPX, card, e-wallet, DuitNow QR, BNPL), straight from official pricing pages. Free JSON API and MCP server.
+- [afu-it/mpg](https://github.com/afu-it/mpg) - ★ 11 · lesen lain · 2026-10 — Compare fees of 81 Malaysian payment gateways (FPX, card, e-wallet, DuitNow QR, BNPL), straight from official pricing pages. Free JSON API and MCP server.
 - [deadboy18/malaysia-pay-kit](https://github.com/deadboy18/malaysia-pay-kit) - ★ 4 · MIT · 2026-05 — Malaysian payment integration toolkit — bank codes, DuitNow QR acquirers, FPX IDs, validators, 479 icons. All verified against PayNet, BNM & official sources.
 - [EquilibriumTechx/qr-pay-gateway](https://github.com/EquilibriumTechx/qr-pay-gateway) - ★ 8 · GPL-3.0 · 2024-01 — Malaysian QR Pay plugin, woocommerce manual payment gateway, Touch 'n Go, Grab, Boost, Shopee Pay.
 - [AliffAzmi/wc-malaysia-payment-gateway](https://github.com/AliffAzmi/wc-malaysia-payment-gateway) - ★ 4 · GPL-3.0 · 2023-11 — Malaysia Payment Gateway (DuitNow QR & Custom bank transfer) for WooCommerce.
@@ -108,7 +108,7 @@ Repositori tidak disenaraikan bila ia diarkib, fork, tiada penerangan, kurang da
 
 Senarai ini diselenggara oleh [Sasa Teguh](https://sasateguh.com/ms), studio di Malaysia. Kami membina laman web yang ditemui di Google dan dalam jawapan AI, dan memasang sistem untuk perniagaan.
 
-[Tempah panggilan](https://sasateguh.com/ms/book) · hello@sasateguh.com · [Lagi daripada Sasa Teguh](https://github.com/sasateguh)
+hello@sasateguh.com · [Lagi daripada Sasa Teguh](https://github.com/sasateguh)
 
 ## Menyumbang
 
