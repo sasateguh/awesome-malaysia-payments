@@ -4,7 +4,7 @@
 
 > Open-source SDKs, plugins and references for Malaysian payment gateways and methods, such as Billplz, toyyibPay, Bayarcash, CHIP, senangPay, iPay88, Fiuu, DuitNow and FPX. Ranked by stars and recent activity, refreshed every week.
 
-**From the maintainers:** [bayarkit](https://github.com/sasateguh/bayarkit) connects 14 payment gateways used in Malaysia behind one interface, in TypeScript and PHP/Laravel. [Sasa Teguh](https://sasateguh.com) builds and integrates payment flows for businesses. [Book a call](https://sasateguh.com/book) or email hello@sasateguh.com. It is not ranked in this list.
+**From the maintainers:** [bayarkit](https://github.com/sasateguh/bayarkit) connects 16 payment gateways used in Malaysia behind one interface, in TypeScript and PHP/Laravel. Sasa Teguh builds and integrates payment flows for businesses. To work with us, see Work with Sasa Teguh below. It is not ranked in this list.
 
 ## Contents
 
@@ -45,7 +45,7 @@
 
 ## Bayarcash
 
-- [bayarcash/php-sdk](https://github.com/bayarcash/php-sdk) - ★ 3 · MIT · 2026-08 — Official Bayarcash PHP SDK. API v2 and v3, FPX, FPX Direct Debit, and DuitNow QR.
+- [bayarcash/php-sdk](https://github.com/bayarcash/php-sdk) - ★ 3 · MIT · 2026-10 — Official Bayarcash PHP SDK. API v2 and v3, FPX, FPX Direct Debit, and DuitNow QR.
 
 ## CHIP
 
