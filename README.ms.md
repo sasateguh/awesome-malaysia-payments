@@ -45,7 +45,7 @@
 
 ## Bayarcash
 
-- [bayarcash/php-sdk](https://github.com/bayarcash/php-sdk) - ★ 3 · MIT · 2026-10 — Official Bayarcash PHP SDK. API v2 and v3, FPX, FPX Direct Debit, and DuitNow QR.
+- [bayarcash/php-sdk](https://github.com/bayarcash/php-sdk) - ★ 3 · MIT · 2026-11 — Official Bayarcash PHP SDK. API v2 and v3, FPX, FPX Direct Debit, and DuitNow QR.
 
 ## CHIP
 
