@@ -23,8 +23,8 @@
 
 ## Alat dan rujukan pelbagai gateway
 
-- [afu-it/malaysia-payment-gateway](https://github.com/afu-it/malaysia-payment-gateway) - ★ 74 · tiada lesen · 2026-10 — Agent skills for implementing Malaysia payment gateway integrations.
-- [afu-it/mpg](https://github.com/afu-it/mpg) - ★ 11 · lesen lain · 2026-10 — Compare fees of 81 Malaysian payment gateways (FPX, card, e-wallet, DuitNow QR, BNPL), straight from official pricing pages. Free JSON API and MCP server.
+- [afu-it/malaysia-payment-gateway](https://github.com/afu-it/malaysia-payment-gateway) - ★ 75 · tiada lesen · 2026-10 — Agent skills for implementing Malaysia payment gateway integrations.
+- [afu-it/mpg](https://github.com/afu-it/mpg) - ★ 11 · lesen lain · 2026-11 — Compare fees of 81 Malaysian payment gateways (FPX, card, e-wallet, DuitNow QR, BNPL), straight from official pricing pages. Free JSON API and MCP server.
 - [deadboy18/malaysia-pay-kit](https://github.com/deadboy18/malaysia-pay-kit) - ★ 4 · MIT · 2026-05 — Malaysian payment integration toolkit — bank codes, DuitNow QR acquirers, FPX IDs, validators, 479 icons. All verified against PayNet, BNM & official sources.
 - [EquilibriumTechx/qr-pay-gateway](https://github.com/EquilibriumTechx/qr-pay-gateway) - ★ 8 · GPL-3.0 · 2024-01 — Malaysian QR Pay plugin, woocommerce manual payment gateway, Touch 'n Go, Grab, Boost, Shopee Pay.
 - [AliffAzmi/wc-malaysia-payment-gateway](https://github.com/AliffAzmi/wc-malaysia-payment-gateway) - ★ 4 · GPL-3.0 · 2023-11 — Malaysia Payment Gateway (DuitNow QR & Custom bank transfer) for WooCommerce.
@@ -49,7 +49,7 @@
 
 ## CHIP
 
-- [CHIPAsia/chip-php-sdk](https://github.com/CHIPAsia/chip-php-sdk) - ★ 7 · tiada lesen · 2026-10 — Official PHP SDK for the CHIP Collect API — accept payments, manage purchases, clients, webhooks, and more.
+- [CHIPAsia/chip-php-sdk](https://github.com/CHIPAsia/chip-php-sdk) - ★ 8 · tiada lesen · 2026-10 — Official PHP SDK for the CHIP Collect API — accept payments, manage purchases, clients, webhooks, and more.
 
 ## senangPay
 
@@ -92,7 +92,7 @@
 
 - [zarulizham/laravel-duitnow](https://github.com/zarulizham/laravel-duitnow) - ★ 10 · MIT · 2026-06 — Laravel wrapper for DuitNow Integration.
 - [Jagdish-J-P/fpx-payment](https://github.com/Jagdish-J-P/fpx-payment) - ★ 15 · MIT · 2025-08 — FPX Payment Gateway Integration in laravel.
-- [shahrulestar/tukarqr](https://github.com/shahrulestar/tukarqr) - ★ 5 · MIT · 2026-10 — Convert blurry, unclear, or camera-taken DuitNow QR images into clean, and rescannable digital QR codes for payments.
+- [shahrulestar/tukarqr](https://github.com/shahrulestar/tukarqr) - ★ 5 · MIT · 2026-11 — Convert blurry, unclear, or camera-taken DuitNow QR images into clean, and rescannable digital QR codes for payments.
 - [zarulizham/laravel-ambank-duitnow-qr](https://github.com/zarulizham/laravel-ambank-duitnow-qr) - ★ 5 · MIT · 2026-09 — AmBank Malaysia's National QR Payment wrapper for Laravel.
 - [natsu90/duitnowqr-chip](https://github.com/natsu90/duitnowqr-chip) - ★ 13 · tiada lesen · 2025-03 — DuitNowQR Hardwareless Soundbox.
 
