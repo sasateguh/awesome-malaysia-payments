@@ -23,7 +23,7 @@
 
 ## Alat dan rujukan pelbagai gateway
 
-- [afu-it/malaysia-payment-gateway](https://github.com/afu-it/malaysia-payment-gateway) - ★ 75 · tiada lesen · 2026-10 — Agent skills for implementing Malaysia payment gateway integrations.
+- [afu-it/malaysia-payment-gateway](https://github.com/afu-it/malaysia-payment-gateway) - ★ 76 · tiada lesen · 2026-10 — Agent skills for implementing Malaysia payment gateway integrations.
 - [afu-it/mpg](https://github.com/afu-it/mpg) - ★ 11 · lesen lain · 2026-11 — Compare fees of 81 Malaysian payment gateways (FPX, card, e-wallet, DuitNow QR, BNPL), straight from official pricing pages. Free JSON API and MCP server.
 - [deadboy18/malaysia-pay-kit](https://github.com/deadboy18/malaysia-pay-kit) - ★ 4 · MIT · 2026-05 — Malaysian payment integration toolkit — bank codes, DuitNow QR acquirers, FPX IDs, validators, 479 icons. All verified against PayNet, BNM & official sources.
 - [EquilibriumTechx/qr-pay-gateway](https://github.com/EquilibriumTechx/qr-pay-gateway) - ★ 8 · GPL-3.0 · 2024-01 — Malaysian QR Pay plugin, woocommerce manual payment gateway, Touch 'n Go, Grab, Boost, Shopee Pay.
@@ -78,8 +78,8 @@
 - [RazerMS/Mobile-XDK-RazerMS_IOS](https://github.com/RazerMS/Mobile-XDK-RazerMS_IOS) - ★ 4 · tiada lesen · 2026-01 — Razer Merchant Services mobile payment for iOS (Xcode Framework).
 - [RazerMS/Mobile-XDK-RazerMS_Android_Studio](https://github.com/RazerMS/Mobile-XDK-RazerMS_Android_Studio) - ★ 18 · tiada lesen · 2024-02 — Razer Merchant Services mobile payment for Android (Android Studio).
 - [FiuuPayment/Encryption-Fiuu_Client_Side_Encryption](https://github.com/FiuuPayment/Encryption-Fiuu_Client_Side_Encryption) - ★ 3 · tiada lesen · 2025-10 — The Client-Side Encryption (CSE) integration lets you accept payments on your website while encrypting card data in your shopper's browser using the Fiuu encryption library.
+- [FiuuPayment/Integration-Fiuu_JavaScript_Seamless_Integration](https://github.com/FiuuPayment/Integration-Fiuu_JavaScript_Seamless_Integration) - ★ 4 · tiada lesen · 2025-05 — Integrate your website with seamless integration to stop redirecting buyers to Fiuu payment page.
 - [FiuuPayment/FiuuGooglePayPlugin](https://github.com/FiuuPayment/FiuuGooglePayPlugin) - ★ 3 · tiada lesen · 2025-06 — Google Pay - With 3+ billion Android devices worldwide, amplify your business reach by tapping into hundreds of millions of cards saved to Google Accounts with Google Pay and provide your customers with a faster, secure way to pay.
-- [FiuuPayment/Integration-Fiuu_JavaScript_Seamless_Integration](https://github.com/FiuuPayment/Integration-Fiuu_JavaScript_Seamless_Integration) - ★ 3 · tiada lesen · 2025-05 — Integrate your website with seamless integration to stop redirecting buyers to Fiuu payment page.
 - [RazerMS/Shopping-Cart-Plugins-RazerMS_Prestashop](https://github.com/RazerMS/Shopping-Cart-Plugins-RazerMS_Prestashop) - ★ 4 · MIT · 2024-03 — Razer Merchant Services Prestashop Shopping Cart Plugin.
 
 ## Revenue Monster
