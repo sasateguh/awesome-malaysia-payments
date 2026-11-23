@@ -23,16 +23,15 @@
 
 ## Alat dan rujukan pelbagai gateway
 
-- [afu-it/malaysia-payment-gateway](https://github.com/afu-it/malaysia-payment-gateway) - ★ 76 · tiada lesen · 2026-10 — Agent skills for implementing Malaysia payment gateway integrations.
+- [afu-it/malaysia-payment-gateway](https://github.com/afu-it/malaysia-payment-gateway) - ★ 77 · tiada lesen · 2026-10 — Agent skills for implementing Malaysia payment gateway integrations.
 - [afu-it/mpg](https://github.com/afu-it/mpg) - ★ 11 · lesen lain · 2026-11 — Compare fees of 81 Malaysian payment gateways (FPX, card, e-wallet, DuitNow QR, BNPL), straight from official pricing pages. Free JSON API and MCP server.
 - [deadboy18/malaysia-pay-kit](https://github.com/deadboy18/malaysia-pay-kit) - ★ 4 · MIT · 2026-05 — Malaysian payment integration toolkit — bank codes, DuitNow QR acquirers, FPX IDs, validators, 479 icons. All verified against PayNet, BNM & official sources.
 - [EquilibriumTechx/qr-pay-gateway](https://github.com/EquilibriumTechx/qr-pay-gateway) - ★ 8 · GPL-3.0 · 2024-01 — Malaysian QR Pay plugin, woocommerce manual payment gateway, Touch 'n Go, Grab, Boost, Shopee Pay.
-- [AliffAzmi/wc-malaysia-payment-gateway](https://github.com/AliffAzmi/wc-malaysia-payment-gateway) - ★ 4 · GPL-3.0 · 2023-11 — Malaysia Payment Gateway (DuitNow QR & Custom bank transfer) for WooCommerce.
 
 ## Billplz
 
 - [jomweb/billplz](https://github.com/jomweb/billplz) - ★ 77 · MIT · 2026-03 — PHP framework agnostic library for working with BillPlz API v3 and beyond...
-- [Billplz/Billplz-for-WooCommerce](https://github.com/Billplz/Billplz-for-WooCommerce) - ★ 10 · GPL-3.0 · 2026-10 — Billplz for WooCommerce.
+- [Billplz/Billplz-for-WooCommerce](https://github.com/Billplz/Billplz-for-WooCommerce) - ★ 10 · GPL-3.0 · 2026-11 — Billplz for WooCommerce.
 - [syamilmj/billplz](https://github.com/syamilmj/billplz) - ★ 8 · MIT · 2026-08 — Ruby gem to interface with the Billplz API.
 - [Billplz/Billplz-for-GiveWP](https://github.com/Billplz/Billplz-for-GiveWP) - ★ 6 · tiada lesen · 2026-08 — Accept Payment using Billplz by using this plugin.
 - [jomweb/billplz-laravel](https://github.com/jomweb/billplz-laravel) - ★ 36 · MIT · 2024-03 — Billplz adapter for Laravel.
@@ -49,7 +48,7 @@
 
 ## CHIP
 
-- [CHIPAsia/chip-php-sdk](https://github.com/CHIPAsia/chip-php-sdk) - ★ 8 · tiada lesen · 2026-10 — Official PHP SDK for the CHIP Collect API — accept payments, manage purchases, clients, webhooks, and more.
+- [CHIPAsia/chip-php-sdk](https://github.com/CHIPAsia/chip-php-sdk) - ★ 8 · tiada lesen · 2026-11 — Official PHP SDK for the CHIP Collect API — accept payments, manage purchases, clients, webhooks, and more.
 
 ## senangPay
 
